@@ -29,6 +29,23 @@ If it is not available, the simulation automatically falls back to a CPU impleme
 Run `Dispersion.ipynb` to reproduce the simulations.
 
 ---
+## Expected output
+
+The simulation produces:
+
+- movies of the biofilm dynamics
+- RGB visualizations of cell populations
+- figure panels saved as PDF
+
+Output files are saved in the `movies/` directory.
+
+---
+
+## Typical runtime
+
+With GPU acceleration (CuPy + CUDA) simulations typically take about 15 minutes.
+
+---
 
 ## Model overview
 
