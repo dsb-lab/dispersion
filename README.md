@@ -108,8 +108,8 @@ The model solves coupled PDEs for:
 | p | pressure field |
 
 <br>
+<img width="305" height="295" alt="Fig5Cartoon" src="https://github.com/user-attachments/assets/a0136ccf-ceaf-470d-87b4-7723e3bf6bc0" />
 
-<img width="324" height="256" alt="Fig5v3 (1)" src="https://github.com/user-attachments/assets/00385e5f-06a6-407a-93a3-e0969cd65c4f" />
 ---
 
 ## License
