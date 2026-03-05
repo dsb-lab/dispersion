@@ -12,21 +12,19 @@ Chou et al. (2026)
 
 ### Python packages
 
-numpy
-matplotlib
-cupy-cuda12x
+- numpy
+- matplotlib
+- cupy-cuda12x
 
 `cupy-cuda12x` enables GPU acceleration but is optional.  
 If it is not available, the simulation automatically falls back to a CPU implementation using NumPy.
 
 ### External dependency
-FFmpeg (https://ffmpeg.org/)
+- FFmpeg (https://ffmpeg.org/)
 
 ---
 
 ## Running the simulation
-
-and reproduces the mechanical ejection (dispersion) of cells from a growing biofilm.
 
 Run `Dispersion.ipynb` to reproduce the simulations.
 
