@@ -20,8 +20,23 @@ Chou et al. (2026)
 If it is not available, the simulation automatically falls back to a CPU implementation using NumPy.
 
 ### External dependency
-- FFmpeg (https://ffmpeg.org/)
+FFmpeg is required to generate the simulation movies.
 
+Download and install FFmpeg from:
+https://ffmpeg.org/
+
+After installation, make sure `ffmpeg` is available in your system PATH.
+
+## Installation
+
+Clone the repository and install the required Python packages:
+
+git clone https://github.com/dsb-lab/dispersion
+cd dispersion
+pip install -r requirements.txt
+
+
+Installation typically takes less than 5 minutes on a standard desktop computer.
 ---
 
 ## Running the simulation
