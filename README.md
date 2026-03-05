@@ -7,13 +7,24 @@ This repository contains the numerical model used in the study:
 **_Self-generated hydrogel locally ejects cells from a biofilm_**,  
 Chou et al. (2026)
 
-The code simulates the coupled dynamics of:
+---
+## Dependencies
 
-- motile cells  
-- non-motile cells  
-- hydrogel  
-- nutrient field  
-- pressure-driven flow  
+### Python packages
+
+numpy
+matplotlib
+cupy-cuda12x
+
+`cupy-cuda12x` enables GPU acceleration but is optional.  
+If it is not available, the simulation automatically falls back to a CPU implementation using NumPy.
+
+### External dependency
+FFmpeg (https://ffmpeg.org/)
+
+---
+
+## Running the simulation
 
 and reproduces the mechanical ejection (dispersion) of cells from a growing biofilm.
 
